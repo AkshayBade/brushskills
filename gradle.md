@@ -100,3 +100,36 @@ java {
 ```shell
 gradle wrapper
 ```
+- dependencies
+```shell
+./gradlew -q dependencies
+./gradlew -q dependencies --configuration compileClasspath
+```
+
+## Dependency Management
+Dependencies can be satisfied by,
+- Other projects
+- File system
+- maven repo
+- ivy repo
+
+### Repositories
+- Remote
+- Local (mvn cache)
+- File System
+```kotlin
+repositories {
+    mavencentral()
+}
+```
+### Scope
+- Implementation
+    - compileOnly
+    - runtimeOnly
+    
+- testImplementation
+    - testCompileOnly
+    - testRuntimeOnly
+
+### Gradle Cache
+stores file hash in cache and checks maven local before going to central repo

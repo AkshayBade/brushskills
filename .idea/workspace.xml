@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4be095-f590-424d-aa4d-a34da050c1f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intellij.md" beforeDir="false" afterPath="$PROJECT_DIR$/intellij.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.md" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,18 @@
       <option name="presentableId" value="Default" />
       <updated>1609134134683</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added gradle brush, spring boot brush.">
+      <created>1609228459341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609228459341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added gradle brush, spring boot brush." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gradle brush, spring boot brush." />
   </component>
 </project>
